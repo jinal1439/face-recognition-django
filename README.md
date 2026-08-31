@@ -1,28 +1,44 @@
-# Django Face Recognition Project
+# Face Recognition Django Project
 
-A Django-based face recognition and emotion detection project.
+A Django-based Face Recognition application that detects and recognizes faces from uploaded images.
 
 ## Features
 
-- Face recognition
-- Emotion detection
-- Image upload and prediction
+- Face detection and recognition
+- Image upload
+- Prediction using trained face recognition model
 - Django web interface
+- Media image support
 
-## Run locally
+## Technologies Used
 
-1. Open the project folder:
+- Python
+- Django
+- OpenCV
+- NumPy
+- Machine Learning / Deep Learning
+- HTML
+- CSS
 
-   ```bash
-   cd face_recognition_model/pro1
-   ```
+## Project Structure
 
-2. Install the required Python packages.
+- `manage.py` - Django project entry point
+- `app1/` - Django application
+- `media/` - Project images
+- `templates/` - HTML templates
+- `static/` - CSS and static files
 
-3. Run the Django server:
+## How to Run
 
-   ```bash
-   python manage.py runserver
-   ```
+```bash
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 
-4. Open `http://127.0.0.1:8000/` in your browser.
+
+
+
+## Author
+
+**Jinal Shah**  
+Aspiring Data Scientist
