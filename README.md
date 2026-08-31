@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Face Recognition Django Project
 
 A Django-based Face Recognition application that detects and recognizes faces from uploaded images.
@@ -72,4 +72,4 @@ A Django-based face recognition and emotion detection project.
    ```
 
 4. Open `http://127.0.0.1:8000/` in your browser.
->>>>>>> ac651bbff8e36ff7ec4bf94e605065608eef0378
+
